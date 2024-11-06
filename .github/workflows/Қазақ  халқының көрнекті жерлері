@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Қазақ халқының көрнекті жерлері</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004080;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #002244;
+        }
+        .container {
+            padding: 20px;
+        }
+        .landmark {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .landmark img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .landmark h2 {
+            color: #004080;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Қазақ халқының көрнекті жерлері</h1>
+    <p>Қазақстанның бірегей орындарын және мәдени мұрасын ашыңыз</p>
+</header>
+
+<nav>
+    <a href="#bayterek">Бәйтерек</a>
+    <a href="#mausoleum">Қожа Ахмет Яссауи кесенесі</a>
+    <a href="#charyn">Шарын шатқалы</a>
+</nav>
+
+<div class="container">
+
+    <div id="bayterek" class="landmark">
+        <h2>Бәйтерек монументі</h2>
+        <img src="bayterek.jpg" alt="Бәйтерек">
+        <p>Бәйтерек — Қазақстан астанасы Астананың символдарының бірі. Монумент ежелгі қазақ аңызына сәйкес, Самұрық құсының жұмыртқасы орналасқан өмір ағашын бейнелейді.</p>
+    </div>
+
+    <div id="mausoleum" class="landmark">
+        <h2>Қожа Ахмет Яссауи кесенесі</h2>
+        <img src="mausoleum.jpg" alt="Қожа Ахмет Яссауи кесенесі">
+        <p>Түркістан қаласында орналасқан Қожа Ахмет Яссауи кесенесі XIV ғасырда салынған сәулет және руханият ескерткіші. Бұл жерге көптеген қажылар мен туристер келеді.</p>
+    </div>
+
+    <div id="charyn" class="landmark">
+        <h2>Шарын шатқалы</h2>
+        <img src="charyn.jpg" alt="Шарын шатқалы">
+        <p>Алматы облысында орналасқан Шарын шатқалы АҚШ-тағы әйгілі Гранд-Каньонға ұқсас. Бұл – шатқалдар мен тау жоталарының әсемдігін тамашалауға болатын бірегей табиғи орын.</p>
+    </div>
+
+</div>
+
+<footer style="background-color: #003366; color: #fff; padding: 10px; text-align: center;">
+    <p>&copy; 2024 Қазақстанның көрнекті жерлері</p>
+</footer>
+
+</body>
+</html>
